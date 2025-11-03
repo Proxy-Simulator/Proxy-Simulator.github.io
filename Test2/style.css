@@ -1,0 +1,425 @@
+.title{
+    font-size: 80px;
+    font-weight: 600;
+    padding: 25px;
+    background-image: url("./images/fon6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 20px 20px;
+}
+.main-nav {
+    padding: 70px 0;
+}
+.main-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 10px 15px;
+}
+.main-nav a:hover {
+    background-color: grey;
+    border-radius: 5px;
+}
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url("./images/fon2.jpg");
+    border-radius: 400px;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("./images/fon5.jpg");
+    font-family: "HelveticaNeue-Light", "HelveticaNeue-Light", sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.footer{
+    background-color: #230c49;
+    color: #fff;
+    padding: 40px 0;
+}
+.cont{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.footer-section h3{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footer-section p{
+    color: #ccc;
+    font-size: 20px;
+    line-height: 1.6;
+}
+.footer-section a{
+    color: #ccc;
+    text-decoration: none;
+}
+.icon-link{
+    font-size: 30px;
+    margin: 20px;
+    padding: 20px;
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+    font-size: 0.8em;
+}
+.footer-bottom a{
+    color: #ccc;
+}
+.footer-bottom a:hover{
+    color: #fff;
+}
+.container1{
+    margin: 20px;
+    padding: 20px;
+}
+.main-title{
+    background-color: rgba(34, 77, 246, 0.4);
+    border-radius: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 10px;
+    padding: 10px;
+}
+.main-title h1{
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.main-title h2{
+    text-align: center;
+    padding-bottom: 10px;
+    color: #cca952;
+    font-weight: bold;
+    font-size: 35px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.main-image img{
+    max-width: 100%;
+    border-radius: 200px;
+}
+.main-image p{
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #eaae13;
+    font-style: italic;
+    font-size: 50px;
+}
+.gallery-title{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.gallery-title h1{
+    font-size: 80px;
+    font-weight: 600;
+    color: #c8ac74;
+}
+.gallery-image{
+    margin: 10px;
+}
+.img1{
+    border: 5px solid #670e0e;
+}
+.img1:hover{
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+.gallery-title1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #c8ac74;
+}
+.gallery-image1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.title-articles{
+    color: #ac8129;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px;
+    padding: 20px;
+}
+.nav-articles{
+    background-image: url("./images/fon6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 200px;
+    opacity: 0.8;
+    margin: 10px 10px;
+}
+.a1{
+    font-size: 35px;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+    display: inline-block;
+}
+.pause{
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.main-title-articles{
+    background-image: url("./images/fon6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin: 10px 10px;
+    opacity: 0.9;
+}
+.title-articles1{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.title-articles1 h1{
+    margin: 10px;
+}
+.title-articles2{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.title-articles2 h1{
+    margin: 10px;
+    padding: 10px;
+}
+.title-articles3{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.title-articles3 h1{
+    margin: 10px;
+    padding: 10px;
+}
+.title-articles4{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.title-articles4 h1{
+    margin: 10px;
+    padding: 10px;
+}
+.title-articles5{
+    font-size: 30px;
+    margin: 10px;
+    padding: 10px;
+}
+.title-articles5 h1{
+    margin: 10px;
+    padding: 10px;
+}
+.about-title{
+    font-size: 40px;
+    background-image: url("./images/fon6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    opacity: 0.9;
+    margin: 10px;
+    padding: 10px;
+}
+.about-title0 h1{
+    font-size: 40px;
+    font-style: italic;
+}
+.about-title p{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-style: italic;
+}
+.about-text1 h4{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+}
+.about-ul{
+    text-align: justify;
+    list-style-type: square;
+    list-style-position: inside;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border: 5px solid #670e0e;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+.about-text2 h4{
+    margin: 5px;
+    padding: 5px;
+}
+.about-text2 p{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    margin: 5px;
+    padding: 5px;
+}
+.about-text3{
+    border: 5px solid #670e0e;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+.about-form{
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+.about-form label{
+    font-weight: bold;
+    font-size: 30px;
+}
+.about-form textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    resize: none;
+}
+.about-form textarea:hover{
+    border-color: #670e0e;
+}
+.about-form input{
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border: 10px solid #a16dfa;
+    font-size: 20px;
+    font-weight: bold;
+}
+.about-form input:hover{
+    border-color: #670e0e;
+}
+.contact-main fieldset{
+    border: 5px solid #dda4f8;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+.contact-title{
+    font-size: 20px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: bold;
+    color: mistyrose;
+    padding: 10px;
+    margin: 10px;
+
+}
+.contact-main legend{
+    font-size: 60px;
+    font-weight: bold;
+    color: peachpuff;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    margin: 10px;
+}
+.contact-list{
+    text-align: justify;
+    list-style-type: square;
+    list-style-position: inside;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    margin: 5px;
+}
+.contact-list li{
+    font-size: 40px;
+    font-weight: bold;
+    color: peachpuff;
+}
+.label-warning{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    margin: 5px;
+    color: #000000;
+}
+.label-select{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    border-radius: 20px;
+}
+.option-label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    margin: 5px;
+}
+.label-span{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    margin: 5px;
+    color: #000000;
+}
+.contact-div{
+    text-align: center;
+    background-image: url("./images/fon9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    opacity: 0.9;
+    margin: 10px;
+    padding: 10px;
+}
+.name-label{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    margin: 5px;
+    color: #000000;
+}
+.form-label-background{
+    background-image: url("./images/fon8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    opacity: 0.9;
+    margin: 10px;
+    padding: 10px;
+}
+.input-lable{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.textarea-contacts{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+

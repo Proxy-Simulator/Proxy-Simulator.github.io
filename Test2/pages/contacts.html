@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<header class="header">
+    <h1 class="title">Star Wanderers of Andromeda</h1>
+    <nav class="main-nav">
+        <a href="../index.html">Головна</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="articles.html">Статті</a>
+        <a href="about.html">Про нас</a>
+        <a href="contacts.html">Контакти</a>
+    </nav>
+</header>
+<main class="contact-main">
+  <div class="contact-title">
+<h1>Тут ви можете вийти з нами на зв'язок або залишити заявку, і ми вам напишемо.</h1>
+  </div>
+<fieldset>
+    <legend>Наші дані</legend>
+    <ul class="contact-list">
+        <li>Пошта- ...</li>
+        <li>Телеграм- ...</li>
+        <li>Дискорд - ...</li>
+    </ul>
+</fieldset>
+    <div class="contact-div">
+<label class="label-warning" for="gf">Виберіть тип заявки</label>
+<select class="label-select" id="gf" name="gf">
+    <option class="option-label" value="kj">Скарга</option>
+    <option class="option-label" value="kl">Подяка</option>
+    <option class="option-label" value="ko">Запитання</option>
+</select>
+<span class="label-span">Після чого заповніть зворотній зв'язок</span>
+<form class="form-label-background" action="/submit-form" method="post">
+    <label class="name-label" for="name">Ім'я:</label><br>
+    <input class="input-lable" type="text" id="name" name="name" required><br><br>
+
+    <label class="name-label" for="email">Email:</label><br>
+    <input class="input-lable" type="email" id="email" name="email" required><br><br>
+
+    <label class="name-label" for="phone">Телефон:</label><br>
+    <input class="input-lable" type="tel" id="phone" name="phone"><br><br>
+
+    <label class="name-label" for="message">Ваше повідомлення:</label><br>
+    <textarea class="textarea-contacts" id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+    <input class="input-lable" type="submit" value="Відправити">
+</form>
+    </div>
+</main>
+<footer class="footer">
+    <div class="cont">
+        <div>
+            <div class="footer-section about">
+                <h3>Слоган</h3>
+                <p>Ми — мандрівники у космосі. Наш шлях немає кінця, а зірки — лише початок.</p>
+            </div>
+            <div class="footer-section contact">
+                <h3>Адміністрація</h3>
+                <p>&#9993; @Нікнейм</p>
+                <p>&#x2709; @Нікнейм</p>
+            </div>
+            <div class="footer-section social">
+                <h3 class="h3">Соціальні мережі</h3>
+                <div>
+                    <a href="#" class="icon-link">&#x1F4F7;</a>
+                    <a href="#" class="icon-link">&#x1F4F2;</a>
+                    <a href="#" class="icon-link">&#x1F4FB;</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 S.W.A. | Усі права захищені.</p>
+            <p><a href="#">Політика конфіденційності</a> | <a href="#">Умови використання</a></p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
