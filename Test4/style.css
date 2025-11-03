@@ -1,0 +1,32 @@
+div{
+    color: red;
+}
+.Test{
+    color: green;
+}
+#Test{
+    color: blue;
+}
+a[href^="#"]{
+    color: blueviolet;
+}
+div h1{
+    color: #e6bf72;
+}
+h2+h3{
+    color: #050202;
+}
+.test1, .test2, .test3{
+    color: #74c612;
+}
+.test4 a~a[href^="pages.html"]{
+    color: #020107;
+    font-size: 30px;
+}
+.test5>ul{
+    color: green;
+    font-size: 20px;
+}
+.test6+.test7{
+    color: #070000;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Work</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div>
+    <h4>Задали всему что вложено в элемент div,вес 1</h4>
+</div>
+<div>
+    <h1 class="Test">Задали элементу h1 по класу Test,вес 10</h1>
+</div>
+<div>
+    <h1 id="Test">Задали элементу h1 по ID,вес 100</h1>
+</div>
+<div>
+    <a href="#">Задали всем якорям a с атрибутом href,использовав оператор ^=,вес 11</a>
+</div>
+<div>
+    <h1>задается всем h1 в div,вес 2</h1>
+</div>
+<div>
+    <h2>----</h2>
+    <h3>дочерний селектор + для h3 в ряду,вес 2</h3>
+    <h3>----</h3>
+</div>
+<div>
+    <h1 class="test1">Задали последовательность трем классам через",",вес 10</h1>
+    <h5 class="test0">-----</h5>
+    <h2 class="test2">-----</h2>
+    <h3 class="test3">-----</h3>
+</div>
+<div class="test4">
+    <a href="pages.html">Test</a>
+    <a href="pages.html">Test</a>
+    <a href="pages.html">В класе test4 всем якорям а мы используем дочерний селектор ~ к началу(^=)атрибута href,вес 22</a>
+    <a href="images/pages/pages.html">Test</a>
+    <a href="index.html">Test</a>
+      <span>
+          <a href="pages.html">Test</a>
+      </span>
+    <a href="pages.html">Test</a>
+    <a href="pages.html">Test</a>
+    <a href="index.html">Test</a>
+</div>
+<div class="test5">
+  <ul>
+    <li>добавили цвет всем ul которые дочерние классу test5,вес 11</li>
+  </ul>
+    <span>
+        <ul>
+          <li>Тест</li>
+        </ul>
+    </span>
+    <span>
+      <ul>
+        <li>Тест</li>
+      </ul>
+    </span>
+  <ul>
+        <li>Тест</li>
+  </ul>
+</div>
+<div>
+    <p class="test6">Тест</p>
+    <p class="test7">Задали двум класам дочерний дочерний элемент +,вес 20</p>
+    <p class="test6">Тест</p>
+    <p class="test7">Тест</p>
+</div>
+</body>
+</html>
