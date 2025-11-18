@@ -1,0 +1,36 @@
+.main-title{
+    background-color: darkgreen;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+}
+.main-content{
+    display: inline;
+}
+a{
+    display: flex;
+    justify-content: right;
+    background-color: #670e0e;
+}
+.main-p{
+    border: 10px solid black;
+}
+.main-content1{
+    display: flex;
+    justify-content: center;
+}
+.test{
+    padding: 100px;
+    margin: 100px;
+    border: 5px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 1300px;
+    height: 1300px;
+    display: flex;
+    justify-content: center;
+}
+.test div{
+    padding: 10px;
+    margin: 10px;
+}

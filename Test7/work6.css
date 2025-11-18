@@ -1,0 +1,27 @@
+.main-content3{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+}
+.main-content6{
+    position: relative;
+    left: 100px;
+    right: 100px;
+    bottom: 300px;
+}
+.main-content4{
+    position: relative;
+    right: 100px;
+    top: 100px;
+}
+.main-content5{
+    position: absolute;
+}
+.main-content2{
+    position: fixed;
+    right: 100px;
+}
+.main-content1{
+    position: sticky;
+    top: 10px;
+}

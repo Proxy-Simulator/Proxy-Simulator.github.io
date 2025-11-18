@@ -1,0 +1,24 @@
+.main-content4{
+    float: right;
+    margin-top: 20px;
+    padding: 10px;
+}
+.main-content3{
+    float: left ;
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+
+}
+.main-content5{
+    float: left;
+}
+.main-content6{
+    float: left;
+    clear: both;
+    padding: 100px;
+}
+.main-content7{
+    float: right;
+    clear: left;
+}

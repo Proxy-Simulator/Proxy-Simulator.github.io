@@ -1,0 +1,55 @@
+.mondrian {
+    width: 1000px;
+    height: 1000px;
+    border-spacing: 0;
+    border: 10px solid black;
+    white-space: nowrap;
+}
+tr{
+    border: 10px solid black;
+}
+td{
+    border: 6px solid black;
+}
+.first{
+    width: 80px;
+}
+.end{
+    width: 50px;
+}
+.first-line{
+    height: 80px;
+}
+.more{
+    width: 140px;
+}
+.line-two{
+    height: 40px;
+}
+.line-three{
+    height: 250px;
+}
+.line-nine{
+    height: 100px;
+}
+.line-seven{
+    height: 110px;
+}
+.ten{
+    height: 100px;
+}
+.eight{
+    width: 7px;
+}
+.red{
+    background-color: #FF0000;
+}
+.yellow{
+    background-color: #fac70b;
+}
+.blue{
+    background-color: #0000FF;
+}
+.black{
+    background-color: #000000;
+}
